@@ -1,3 +1,5 @@
+install dependencies >> pip install -r requirements.txt
+
 Replace RabitMQ connection URL with your your RabitMQ connect URL.
 
 Run Celery: celery -A run.celery worker --loglevel=info
