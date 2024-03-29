@@ -6,6 +6,6 @@ from time import sleep
 @shared_task(bind=True)
 def process_file(self):
     """Background tasl"""
-    print("\n Started Background Task\n")
+    print("\n\n Started Background Task\n\n")
     sleep(3)
-    print("\n Completed Background Task\n")
+    print("\n\n Completed Background Task\n\n")
